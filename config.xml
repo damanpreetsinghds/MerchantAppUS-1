@@ -7,6 +7,7 @@
         <author href="http://kryptosmobile.com" email="info@kryptosmobile.com">Kryptos Mobile Team</author>
         <feature name="http://api.phonegap.com/1.0/device" />
         <!--<preference name="phonegap-version" value="3.7.0"/>-->
+         <preference name="phonegap-version"          value="cli-5.2.0" />
         <preference name="permissions"                value="none"/>
         <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
         <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
@@ -111,14 +112,14 @@
         <gap:plugin name="cordova-plugin-actionsheet" source="npm" />
         <!--<gap:plugin name="de.appplant.cordova.plugin.local-notification" />-->
 
-        <!-- push plugin for ios -->
-        <!--<gap:plugin name="com.medlei.pushplugin" version="0.1.2" >
-            <param name="APP_ID" value="7XVKDGsp1PvoEIl0ewxDkJ35n6Hwtdbnifp9iKmq" />
-            <param name="CLIENT_KEY" value="mCiSHfaUFggnIWYO6KpRJhblenWRYGsHO87Yk7A3" />
-        </gap:plugin>-->
+        push plugin for ios
+        <gap:plugin name="com.medlei.pushplugin" version="0.1.2" >
+            <param name="APP_ID" value="MKcUnG5m5FU6uaJUHqI6wxAvLa7b2BNaOUb4Jnd8" />
+            <param name="CLIENT_KEY" value="eRiONUNcS1Oi6J3C5rplDTDTFb9z7PMqknyeAbLu" />
+        </gap:plugin>
 
-       <!-- push plugin for android-->
-        <gap:plugin name="com.parse.cordova.core.pushplugin" version="0.1.0" />
+       <!-- push plugin for android
+        <gap:plugin name="com.parse.cordova.core.pushplugin" version="0.1.0" />-->
 
 
         <gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">
