@@ -114,8 +114,8 @@
 
         push plugin for ios
         <gap:plugin name="com.medlei.pushplugin" version="0.1.2" >
-            <param name="APP_ID" value="MKcUnG5m5FU6uaJUHqI6wxAvLa7b2BNaOUb4Jnd8" />
-            <param name="CLIENT_KEY" value="eRiONUNcS1Oi6J3C5rplDTDTFb9z7PMqknyeAbLu" />
+            <param name="APP_ID" value="SkZLD6mhVOlb4ffwhBHp686xskdjMReuxy5VbQJf" />
+            <param name="CLIENT_KEY" value="OCeoD1WCHUWWfwLR7Qybou6k67hCSasiBqXcVYqg" />
         </gap:plugin>
 
        <!-- push plugin for android
